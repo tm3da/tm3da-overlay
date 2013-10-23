@@ -12,7 +12,7 @@ SRC_URI="http://common-lisp.net/project/mkcl/releases/${P}.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~x86 ~amd64"
 IUSE="debug gengc threads +unicode X"
 
 RDEPEND="dev-libs/gmp
